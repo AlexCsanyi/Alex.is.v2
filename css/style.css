@@ -135,6 +135,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #000 !important;
   font-weight: 700 !important;
   text-transform: uppercase;
+  transform: translateX(80px);
 }
 
 .head-title {
@@ -319,8 +320,12 @@ header {
     }
 
     @media screen and (max-width: 768px) {
-      .coorde, .greeting {
-        visibility: hidden; } }
+      .coorde, .greeting, .ellipse-container {
+        visibility: hidden; } 
+      #logo {
+        transform: translateX(0px)
+      }
+      }
 
     #colorlib-hero .hero-flex .col-one-forth {
       width: 40%;
